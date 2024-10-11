@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Paaji+2:wght@400..800&family=Montagu+Slab:opsz,wght@16..144,100..700&display=swap');
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f2ee;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.container {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+.hero {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.hero img {
+    border-radius: 20px;
+    width: 350px;
+    height: 200px;
+    object-fit: cover;
+    border: 2px dashed #323b4c;
+}
+
+.hero h1 {
+    margin: 20px 0 10px;
+    font-size: 2.8rem;
+    color: #323b4c;
+    font-family: "Montagu Slab", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 500;
+    /* font-family: 'Montserrat', sans-serif; */
+}
+
+.title {
+    text-transform: uppercase;
+    font-family: "Baloo Paaji 2", sans-serif;
+    /* font-optical-sizing: auto; */
+    font-weight: 400;
+    font-style: normal;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    color: #323b4c;
+}
+
+
+.resume-section {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.resume-section h2 {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: "Baloo Paaji 2", sans-serif;
+}
+
+
+embed {
+    width: 100%;
+    height: 1200px;
+    border: 2px solid #ddd;
+    border-radius: 6px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.social-links {
+    text-align: center;
+    /* margin-top: 20px; */
+    font-family: "Baloo Paaji 2", sans-serif;
+}
+
+.social-links div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 0 20px 0;
+}
+
+.social-links h3 {
+    width: 50%;
+    text-align: center;
+    border-bottom: 0.5px solid #ddd;
+    line-height: 0.005em;
+}
+
+.social-links h3 span {
+    background: #fff;
+    padding: 0 10px;
+    color: #a9a6a6;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.social-links img {
+    width: 30px;
+    height: 30px;
+}
+
+.social-links img:hover {
+    transform: scale(1.2);
+    transition: all 0.3s ease;
+}
+
+.social-links a {
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    border: 2px solid transparent;
+    /* padding: 10px; */
+    border-radius: 6px;
+    transition: all 0.3s ease;
+}
+
+/* .social-links a:hover {
+    background-color: #323b4c;
+    color: white;
+    border: 2px solid #323b4c;
+} */
+
+caption {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    /* animation: wave 5s ease-in-out infinite; */
+    /* Animation for the entire row */
+}
+
+.skill {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    /* width: 70px; */
+    /* height: 50px; */
+    /* border-radius: 50%; */
+    border-radius: 20px;
+    /* background: linear-gradient(135deg, #4e54c8, #8f94fb); */
+    background: linear-gradient(135deg, #396afc, #2948ff);
+    /* background: linear-gradient(135deg, #323b4c, #4286f4); */
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+    padding: 3px 12px 2px 12px;
+    margin-top: 10px;
+    font-family: "Baloo Paaji 2", sans-serif;
+    /* font-optical-sizing: auto; */
+    /* font-weight: <weight>; */
+    /* font-style: normal; */
+    /* transition: transform 0.3s ease, box-shadow 0.3s ease; */
+}
+
+
+/* @keyframes wave {
+    0%, 100% {
+        transform: translateY(0px);
+    }
+    20% {
+        transform: translateY(-10px); 
+    }
+    40% {
+        transform: translateY(0px);   
+    }
+    60% {
+        transform: translateY(10px);  
+    }
+    80% {
+        transform: translateY(0px);  
+    }
+}
+
+.skill:nth-child(odd) {
+    animation: waveEffect 2s ease-in-out infinite; 
+}
+
+.skill:nth-child(even) {
+    animation: waveEffect 2s ease-in-out infinite 0.5s;
+}
+
+@keyframes waveEffect {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-15px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+*/
+/* @media (max-width: 600px) {
+    .skill {
+        width: 60px;
+        height: 60px;
+        font-size: 12px;
+    }
+} */
